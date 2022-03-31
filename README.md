@@ -13,7 +13,7 @@ A) To obtain table values (e.g. see an example for [Europe](./EUR11/tables))
 4. Land use (variable name in WRF = LU_INDEX) from geo_em.d01.nc intepolated to 1km grid of LAI observations using nearest-neigbour method with cdo
 5. Calculate mean per category for each month, which gives tabular values that can be used in WRF
 
-B) To obtain LAI maps for EUR11 CORDEX domain (e.g. see as an example geo_em files for [Europe](./EUR11/geo__em__files))
+B) To obtain LAI maps for EUR11 CORDEX domain (e.g. see as an example geo_em files for [Europe](./EUR11/geo_em_files))
 1. As 1. in A)
 2. As 2. in A)
 3. Run geogrid.exe over a predefined doman at selected resolution (e.g. 11km for CORDEX-EUR11) to obtain geo_em.d01.nc
